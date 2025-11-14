@@ -1,0 +1,165 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{A Systematic Literature Review of Semantic Web Technologies}
+\author{Your Name \\ Your Institution}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		This paper presents a Systematic Literature Review (SLR) on Semantic Web technologies. 
+		The review includes research questions, search strategies, inclusion and exclusion criteria, 
+		quality assessment, and synthesis of selected studies. 
+		The findings highlight trends, challenges, and future opportunities in Semantic Web research.
+	\end{abstract}
+	
+	\textbf{Keywords:} Semantic Web, Ontology, Linked Data, Knowledge Graph, SLR.
+	
+	\section{Introduction}
+	Explain background, motivation, research gaps, and importance of Semantic Web research.
+	
+	\subsection{Research Questions}
+	\begin{itemize}
+		\item \textbf{RQ1}: What Semantic Web technologies are most commonly used?
+		\item \textbf{RQ2}: In which domains are Semantic Web technologies applied?
+		\item \textbf{RQ3}: What challenges and limitations are reported?
+		\item \textbf{RQ4}: What are the research trends over time?
+	\end{itemize}
+	
+	\section{Background}
+	Provide theoretical overview:
+	\begin{itemize}
+		\item RDF, OWL, SPARQL
+		\item Ontology engineering
+		\item Knowledge Graphs
+		\item Reasoning techniques
+	\end{itemize}
+	
+	\section{Methodology}
+	This SLR follows PRISMA guidelines.
+	
+	\subsection{Search Strategy}
+	Databases used:
+	\begin{itemize}
+		\item IEEE Xplore
+		\item ACM Digital Library
+		\item Scopus
+		\item ScienceDirect
+	\end{itemize}
+	
+	Example search string:
+	\begin{verbatim}
+		("semantic web" OR "ontology" OR "linked data" OR "knowledge graph") 
+		AND ("application" OR "implementation" OR "case study")
+	\end{verbatim}
+	
+	\subsection{Inclusion Criteria (IC)}
+	\begin{itemize}
+		\item IC1: Focus on Semantic Web technologies
+		\item IC2: Published between 2014–2024
+		\item IC3: Peer-reviewed articles
+	\end{itemize}
+	
+	\subsection{Exclusion Criteria (EC)}
+	\begin{itemize}
+		\item EC1: Duplicate studies
+		\item EC2: Non-English publications
+		\item EC3: No access to full text
+	\end{itemize}
+	
+	\subsection{Quality Assessment}
+	Each study is evaluated using the following criteria (score 0–1):
+	\begin{itemize}
+		\item Q1: Clear research goals
+		\item Q2: Sound methodology
+		\item Q3: Sufficient evaluation
+	\end{itemize}
+	
+	\subsection{Study Selection (PRISMA)}
+	Insert your PRISMA diagram:
+	\begin{verbatim}
+		Identified -> Screened -> Eligible -> Included
+	\end{verbatim}
+	
+	Add your figure:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{prisma.png}
+		\caption{PRISMA Flow Diagram}
+	\end{figure}
+	
+	\section{Results}
+	
+	\subsection{Overview of Selected Studies}
+	Summary of articles:
+	\begin{itemize}
+		\item Total articles identified: XX
+		\item Final selected studies: XX
+	\end{itemize}
+	
+	\subsection{Trends by Year}
+	Insert chart or narrative here.
+	
+	\subsection{Technologies Used (RQ1)}
+	Discuss usage of RDF, OWL, SPARQL, Knowledge Graphs, etc.
+	
+	\subsection{Applications by Domain (RQ2)}
+	Health, IoT, smart cities, education, etc.
+	
+	\subsection{Challenges (RQ3)}
+	Common challenges:
+	\begin{itemize}
+		\item Scalability
+		\item Data integration
+		\item Ontology alignment
+	\end{itemize}
+	
+	\section{Data Extraction Table}
+	
+	\begin{longtable}{|p{2.5cm}|p{1.5cm}|p{2cm}|p{3cm}|p{4cm}|}
+		\hline
+		\textbf{Author} & \textbf{Year} & \textbf{Domain} & \textbf{Technology Used} & \textbf{Key Findings} \\
+		\hline
+		Author A & 2020 & Healthcare & RDF, OWL & Ontology improved patient data integration. \\
+		\hline
+		Author B & 2022 & IoT & Knowledge Graphs & Reasoning improved semantic interoperability. \\
+		\hline
+	\end{longtable}
+	
+	\section{Discussion}
+	Provide deep analysis and compare studies.
+	
+	\section{Research Gaps}
+	Highlight gaps such as:
+	\begin{itemize}
+		\item Lack of large-scale evaluations
+		\item Missing benchmark datasets
+		\item Limited integration with machine learning
+	\end{itemize}
+	
+	\section{Future Work}
+	Recommendations for further research.
+	
+	\section{Conclusion}
+	Summarize findings, contributions, and significance.
+	
+	\section{References}
+	Use BibTeX or manual references here.
+	
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+	
+\end{document}
