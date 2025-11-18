@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 NOV 2025 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 NOV 2025 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,9 +501,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[2] (SLR.bbl)
+[2] (SLR.bbl
 
-[3] (SLR.aux)
+[3])
+
+[4] (SLR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
@@ -512,19 +514,19 @@ Package rerunfilecheck Info: File `SLR.out' has not changed.
 (rerunfilecheck)             Checksum: B32866EF58344466EE3B178A28341BF3;1696.
  ) 
 Here is how much of TeX's memory you used:
- 12220 strings out of 469941
- 188148 string characters out of 5486265
- 621074 words of memory out of 5000000
- 38734 multiletter control sequences out of 15000+600000
- 653019 words of font info for 153 fonts, out of 8000000 for 9000
+ 12270 strings out of 469941
+ 188689 string characters out of 5486265
+ 623209 words of memory out of 5000000
+ 38743 multiletter control sequences out of 15000+600000
+ 655678 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,1002b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,1002b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/miktek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/miktek/fonts/type1/u
 rw/courier/ucrr8a.pfb><D:/miktek/fonts/type1/urw/times/utmb8a.pfb><D:/miktek/fo
 nts/type1/urw/times/utmr8a.pfb><D:/miktek/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SLR.pdf (3 pages, 81012 bytes).
+Output written on SLR.pdf (4 pages, 89888 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 45161 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 49257 words of extra memory for PDF output out of 51595 (max. 10000000)
 
